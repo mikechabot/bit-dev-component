@@ -1,6 +1,7 @@
 # bit-dev-component
 
-This library is imported into https://github.com/mikechabot/bit-dev
+* The published component is viewable at https://bit.dev/mikechabot/collection/product-list
+* This library is imported into https://github.com/mikechabot/bit-dev
 
 1. `npm install`
 2. `npm start`
