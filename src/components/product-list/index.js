@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { products } from './products';
 import './product-list.css';
+import _ from 'lodash';
 
 export default class ProductList extends Component {
     share() {
@@ -34,6 +35,8 @@ export default class ProductList extends Component {
             <>
                 <h2>Products</h2>
                 <br/>
+                <h3>Using lodash import without treeshaking!</h3>
+                {_.keys({foo: 'bar', baz: 'qux'})}
                 <div>
                     {
                         products.map((product, index) => {
